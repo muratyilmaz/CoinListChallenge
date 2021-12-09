@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: scene)
         self.window = window
-        self.window?.rootViewController = SceneFactory.makeCoinListScene()
+        self.window?.rootViewController = SceneFactory.makeCoinListScene(CoinListViewModel(service: CoinListService()))
         self.window?.makeKeyAndVisible()
     }
 }

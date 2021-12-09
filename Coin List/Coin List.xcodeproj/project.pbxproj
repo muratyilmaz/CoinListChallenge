@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90DC73D27614845005A3A41 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = F90DC73C27614845005A3A41 /* Reusable */; };
+		F90DC74527622739005A3A41 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DC74427622739005A3A41 /* NumberFormatter.swift */; };
+		F90DC747276228C3005A3A41 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DC746276228C3005A3A41 /* String.swift */; };
+		F90DC74A27622992005A3A41 /* CoinListTVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DC74927622992005A3A41 /* CoinListTVCViewModel.swift */; };
+		F90DC74C27622DB5005A3A41 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DC74B27622DB5005A3A41 /* UIColor.swift */; };
+		F90DC74E276230C6005A3A41 /* CoinSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DC74D276230C6005A3A41 /* CoinSortType.swift */; };
+		F90DC75127624A0D005A3A41 /* CoinDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DC75027624A0D005A3A41 /* CoinDetailTableViewCell.swift */; };
+		F90DC75327624E6E005A3A41 /* CoinDetailTVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DC75227624E6E005A3A41 /* CoinDetailTVCViewModel.swift */; };
+		F90DC7562762575C005A3A41 /* DSFSparkline in Frameworks */ = {isa = PBXBuildFile; productRef = F90DC7552762575C005A3A41 /* DSFSparkline */; };
 		F993F450275FCEE4001DC691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F44F275FCEE4001DC691 /* AppDelegate.swift */; };
 		F993F452275FCEE4001DC691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F451275FCEE4001DC691 /* SceneDelegate.swift */; };
 		F993F459275FCEE6001DC691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F993F458275FCEE6001DC691 /* Assets.xcassets */; };
@@ -23,7 +32,7 @@
 		F993F497275FD8C2001DC691 /* CoinDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F496275FD8C2001DC691 /* CoinDetailViewModel.swift */; };
 		F993F49C275FDB7C001DC691 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = F993F49B275FDB7C001DC691 /* Moya */; };
 		F993F49E275FDBE1001DC691 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F49D275FDBE1001DC691 /* NetworkClient.swift */; };
-		F993F4A0275FDC8B001DC691 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F49F275FDC8B001DC691 /* Currency.swift */; };
+		F993F4A0275FDC8B001DC691 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F49F275FDC8B001DC691 /* Coin.swift */; };
 		F993F4A2275FDCC4001DC691 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F4A1275FDCC4001DC691 /* APIModel.swift */; };
 		F993F4A5275FDF0D001DC691 /* CoinListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F4A4275FDF0D001DC691 /* CoinListAPI.swift */; };
 		F993F4AA275FE07C001DC691 /* CoinListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F993F4A9275FE07C001DC691 /* CoinListService.swift */; };
@@ -49,6 +58,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F90DC74427622739005A3A41 /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		F90DC746276228C3005A3A41 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		F90DC74927622992005A3A41 /* CoinListTVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListTVCViewModel.swift; sourceTree = "<group>"; };
+		F90DC74B27622DB5005A3A41 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F90DC74D276230C6005A3A41 /* CoinSortType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSortType.swift; sourceTree = "<group>"; };
+		F90DC75027624A0D005A3A41 /* CoinDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailTableViewCell.swift; sourceTree = "<group>"; };
+		F90DC75227624E6E005A3A41 /* CoinDetailTVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailTVCViewModel.swift; sourceTree = "<group>"; };
 		F993F44C275FCEE4001DC691 /* Coin List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F993F44F275FCEE4001DC691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F993F451275FCEE4001DC691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +83,7 @@
 		F993F494275FD8BB001DC691 /* CoinDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailViewController.swift; sourceTree = "<group>"; };
 		F993F496275FD8C2001DC691 /* CoinDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailViewModel.swift; sourceTree = "<group>"; };
 		F993F49D275FDBE1001DC691 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
-		F993F49F275FDC8B001DC691 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		F993F49F275FDC8B001DC691 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		F993F4A1275FDCC4001DC691 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		F993F4A4275FDF0D001DC691 /* CoinListAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListAPI.swift; sourceTree = "<group>"; };
 		F993F4A9275FE07C001DC691 /* CoinListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListService.swift; sourceTree = "<group>"; };
@@ -82,6 +98,8 @@
 			files = (
 				F993F49C275FDB7C001DC691 /* Moya in Frameworks */,
 				F993F48C275FD5E3001DC691 /* SnapKit in Frameworks */,
+				F90DC7562762575C005A3A41 /* DSFSparkline in Frameworks */,
+				F90DC73D27614845005A3A41 /* Reusable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +120,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F90DC7432762272E005A3A41 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F90DC74427622739005A3A41 /* NumberFormatter.swift */,
+				F90DC746276228C3005A3A41 /* String.swift */,
+				F90DC74B27622DB5005A3A41 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F90DC7482762295F005A3A41 /* CoinListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F993F488275FD595001DC691 /* CoinListTableViewCell.swift */,
+				F90DC74927622992005A3A41 /* CoinListTVCViewModel.swift */,
+			);
+			path = CoinListTableViewCell;
+			sourceTree = "<group>";
+		};
+		F90DC74F276249FC005A3A41 /* CoinDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F90DC75027624A0D005A3A41 /* CoinDetailTableViewCell.swift */,
+				F90DC75227624E6E005A3A41 /* CoinDetailTVCViewModel.swift */,
+			);
+			path = CoinDetailTableViewCell;
+			sourceTree = "<group>";
+		};
 		F993F443275FCEE4001DC691 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +171,7 @@
 		F993F44E275FCEE4001DC691 /* Coin List */ = {
 			isa = PBXGroup;
 			children = (
+				F90DC7432762272E005A3A41 /* Extensions */,
 				F993F498275FD940001DC691 /* Networking */,
 				F993F48F275FD650001DC691 /* Factories */,
 				F993F486275FD56B001DC691 /* Components */,
@@ -193,6 +240,7 @@
 			children = (
 				F993F48D275FD605001DC691 /* CoinListViewController.swift */,
 				F993F492275FD8A8001DC691 /* CoinListViewModel.swift */,
+				F90DC74D276230C6005A3A41 /* CoinSortType.swift */,
 			);
 			path = CoinList;
 			sourceTree = "<group>";
@@ -217,7 +265,8 @@
 		F993F487275FD574001DC691 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				F993F488275FD595001DC691 /* CoinListTableViewCell.swift */,
+				F90DC74F276249FC005A3A41 /* CoinDetailTableViewCell */,
+				F90DC7482762295F005A3A41 /* CoinListTableViewCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -245,7 +294,7 @@
 		F993F499275FD98B001DC691 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F993F49F275FDC8B001DC691 /* Currency.swift */,
+				F993F49F275FDC8B001DC691 /* Coin.swift */,
 				F993F4A1275FDCC4001DC691 /* APIModel.swift */,
 				F993F4AB275FE12F001DC691 /* CoinListResponse.swift */,
 			);
@@ -287,6 +336,8 @@
 			packageProductDependencies = (
 				F993F48B275FD5E3001DC691 /* SnapKit */,
 				F993F49B275FDB7C001DC691 /* Moya */,
+				F90DC73C27614845005A3A41 /* Reusable */,
+				F90DC7552762575C005A3A41 /* DSFSparkline */,
 			);
 			productName = "Coin List";
 			productReference = F993F44C275FCEE4001DC691 /* Coin List.app */;
@@ -363,6 +414,8 @@
 			packageReferences = (
 				F993F48A275FD5E3001DC691 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				F993F49A275FDB7C001DC691 /* XCRemoteSwiftPackageReference "Moya" */,
+				F90DC73B27614845005A3A41 /* XCRemoteSwiftPackageReference "Reusable" */,
+				F90DC7542762575C005A3A41 /* XCRemoteSwiftPackageReference "DSFSparkline" */,
 			);
 			productRefGroup = F993F44D275FCEE4001DC691 /* Products */;
 			projectDirPath = "";
@@ -407,15 +460,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F993F489275FD595001DC691 /* CoinListTableViewCell.swift in Sources */,
-				F993F4A0275FDC8B001DC691 /* Currency.swift in Sources */,
+				F993F4A0275FDC8B001DC691 /* Coin.swift in Sources */,
 				F993F491275FD65C001DC691 /* SceneFactory.swift in Sources */,
+				F90DC74A27622992005A3A41 /* CoinListTVCViewModel.swift in Sources */,
+				F90DC74527622739005A3A41 /* NumberFormatter.swift in Sources */,
 				F993F450275FCEE4001DC691 /* AppDelegate.swift in Sources */,
 				F993F493275FD8A8001DC691 /* CoinListViewModel.swift in Sources */,
 				F993F4A2275FDCC4001DC691 /* APIModel.swift in Sources */,
+				F90DC74E276230C6005A3A41 /* CoinSortType.swift in Sources */,
+				F90DC74C27622DB5005A3A41 /* UIColor.swift in Sources */,
+				F90DC75327624E6E005A3A41 /* CoinDetailTVCViewModel.swift in Sources */,
 				F993F497275FD8C2001DC691 /* CoinDetailViewModel.swift in Sources */,
 				F993F4AA275FE07C001DC691 /* CoinListService.swift in Sources */,
 				F993F4A5275FDF0D001DC691 /* CoinListAPI.swift in Sources */,
 				F993F49E275FDBE1001DC691 /* NetworkClient.swift in Sources */,
+				F90DC75127624A0D005A3A41 /* CoinDetailTableViewCell.swift in Sources */,
+				F90DC747276228C3005A3A41 /* String.swift in Sources */,
 				F993F4AE275FE1FA001DC691 /* DataMapper.swift in Sources */,
 				F993F452275FCEE4001DC691 /* SceneDelegate.swift in Sources */,
 				F993F48E275FD605001DC691 /* CoinListViewController.swift in Sources */,
@@ -599,7 +659,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -628,7 +688,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -776,6 +836,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F90DC73B27614845005A3A41 /* XCRemoteSwiftPackageReference "Reusable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/Reusable.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F90DC7542762575C005A3A41 /* XCRemoteSwiftPackageReference "DSFSparkline" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dagronf/DSFSparkline.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		F993F48A275FD5E3001DC691 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -795,6 +871,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F90DC73C27614845005A3A41 /* Reusable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F90DC73B27614845005A3A41 /* XCRemoteSwiftPackageReference "Reusable" */;
+			productName = Reusable;
+		};
+		F90DC7552762575C005A3A41 /* DSFSparkline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F90DC7542762575C005A3A41 /* XCRemoteSwiftPackageReference "DSFSparkline" */;
+			productName = DSFSparkline;
+		};
 		F993F48B275FD5E3001DC691 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F993F48A275FD5E3001DC691 /* XCRemoteSwiftPackageReference "SnapKit" */;

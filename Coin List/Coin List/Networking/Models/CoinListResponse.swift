@@ -19,5 +19,5 @@ struct CoinListResponse: Decodable {
     }
     
     let stats: Stats
-    let coins: [Currency]
+    let coins: [Coin]
 }

@@ -10,14 +10,24 @@ import UIKit
 final class SceneFactory {
     
     @discardableResult
-    static func makeCoinListScene() -> CoinListViewController {
+    static func makeCoinListScene(_ viewModel: CoinListViewModelType) -> UINavigationController {
         let coinListViewController = CoinListViewController()
-        return coinListViewController
+        coinListViewController.viewModel = viewModel
+        
+        let navigationController = UINavigationController(rootViewController: coinListViewController)
+        navigationController.navigationBar.prefersLargeTitles = true
+        navigationController.navigationBar.tintColor = UIColor.Theme.darkTextColor
+        let titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.Theme.darkTextColor]
+        navigationController.navigationBar.largeTitleTextAttributes = titleTextAttributes
+        navigationController.navigationBar.titleTextAttributes = titleTextAttributes
+        
+        return navigationController
     }
     
     @discardableResult
-    static func makeCoinDetailScene() -> CoinDetailViewController {
+    static func makeCoinDetailScene(_ viewModel: CoinDetailViewModelType) -> CoinDetailViewController {
         let coinDetailViewController = CoinDetailViewController()
+        coinDetailViewController.viewModel = viewModel
         return coinDetailViewController
     }
     

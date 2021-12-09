@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "DSFSparkline",
+        "repositoryURL": "https://github.com/dagronf/DSFSparkline.git",
+        "state": {
+          "branch": "master",
+          "revision": "7847d7c2ada45f74af66618f77c489fd72eab122",
+          "version": null
+        }
+      },
+      {
         "package": "Moya",
         "repositoryURL": "https://github.com/Moya/Moya.git",
         "state": {
@@ -26,6 +35,15 @@
           "branch": null,
           "revision": "c43bae3dac73fdd3cb906bd5a1914686ca71ed3c",
           "version": "6.7.0"
+        }
+      },
+      {
+        "package": "Reusable",
+        "repositoryURL": "https://github.com/AliSoftware/Reusable.git",
+        "state": {
+          "branch": "main",
+          "revision": "85e8ef7b2441433ffed2fc8cf4942961b70a83f6",
+          "version": null
         }
       },
       {
