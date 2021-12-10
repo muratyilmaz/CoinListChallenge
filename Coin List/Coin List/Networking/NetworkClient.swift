@@ -8,7 +8,7 @@
 import Foundation
 import Moya
 
-struct NetworkConstants {
+struct NetworkEnvironment {
     public static var baseURL: URL { URL(string: "https://psp-merchantpanel-service-sandbox.ozanodeme.com.tr/api/v1/")! }
 }
 

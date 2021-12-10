@@ -19,7 +19,7 @@ enum CoinListAPI {
 
 extension CoinListAPI: TargetType {
     
-    var baseURL: URL { NetworkConstants.baseURL.appendingPathComponent("dummy") }
+    var baseURL: URL { NetworkEnvironment.baseURL.appendingPathComponent("dummy") }
     
     var path: String {
         switch self {

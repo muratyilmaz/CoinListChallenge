@@ -8,18 +8,6 @@
 import UIKit
 import Reusable
 
-private extension UILabel {
-    static func makeLabel(_ text: String? = nil,
-                          textColor: UIColor = UIColor.Theme.darkTextColor,
-                          aligment: NSTextAlignment = .left) -> UILabel {
-        let label = UILabel()
-        label.textColor = textColor
-        label.textAlignment = aligment
-        label.text = text
-        return label
-    }
-}
-
 final class CoinListTableViewCell: UITableViewCell, Reusable {
     
     private lazy var symbolLabel = UILabel.makeLabel(textColor: .Theme.lightTextColor)
@@ -39,8 +27,8 @@ final class CoinListTableViewCell: UITableViewCell, Reusable {
     private func setup() {
         
         selectionStyle = .none
-        
         backgroundColor = .clear
+        
         let containerView = setupContainerView()
         
         let contentStackView = UIStackView()

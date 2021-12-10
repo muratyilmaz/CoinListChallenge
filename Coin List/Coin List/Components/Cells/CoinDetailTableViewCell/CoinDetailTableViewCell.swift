@@ -9,20 +9,6 @@ import Foundation
 import Reusable
 import UIKit
 
-private extension UILabel {
-    static func makeLabel(_ text: String? = nil,
-                          textColor: UIColor = UIColor.Theme.darkTextColor,
-                          aligment: NSTextAlignment = .left) -> UILabel {
-        let label = UILabel()
-        label.textColor = textColor
-        label.adjustsFontSizeToFitWidth = true
-        label.minimumScaleFactor = 0.7
-        label.textAlignment = aligment
-        label.text = text
-        return label
-    }
-}
-
 final class CoinDetailTableViewCell: UITableViewCell, Reusable {
     
     private lazy var titleLabel = UILabel.makeLabel(textColor: .Theme.darkTextColor)
