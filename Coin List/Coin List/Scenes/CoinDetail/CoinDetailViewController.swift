@@ -67,19 +67,20 @@ final class CoinDetailViewController: UIViewController {
     private var sparkLineDataSource: DSFSparkline.DataSource!
     private func setupSparkLineView() {
         
-        let footerView = DSFSparklineLineGraphView()
-        footerView.frame = CGRect(x: 0, y: 0, width: 0, height: 100)
-        footerView.shadowed = false
-        footerView.lineWidth = 1
-        footerView.graphColor = UIColor.Theme.darkTextColor
-        footerView.interpolated = true
+        let graphView = DSFSparklineLineGraphView()
+        graphView.frame = CGRect(x: 0, y: 0, width: 0, height: 100)
+        graphView.showZeroLine = false
+        graphView.shadowed = false
+        graphView.lineWidth = 1
+        graphView.graphColor = UIColor.Theme.darkTextColor
+        graphView.interpolated = true
                 
         let values = viewModel.sparkLines.map { CGFloat($0) }
         let range: ClosedRange<CGFloat> = (values.min() ?? 0) ... (values.max() ?? 0)
         
         sparkLineDataSource = DSFSparkline.DataSource(values: values, range: range)
-        footerView.dataSource = sparkLineDataSource
-        tableView.tableHeaderView = footerView
+        graphView.dataSource = sparkLineDataSource
+        tableView.tableHeaderView = graphView
     }
     
     private func bindViewModel() {
