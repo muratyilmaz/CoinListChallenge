@@ -13,6 +13,7 @@ extension NumberFormatter {
         formatter.usesGroupingSeparator = true
         formatter.currencyCode = "USD"
         formatter.numberStyle = .currency
+        formatter.maximumFractionDigits = 10
         return formatter
     }()
 }
